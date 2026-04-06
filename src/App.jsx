@@ -12,7 +12,9 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    alert(`Registered for ${selected.title}!`)
+    alert(`Registered for ${selected.title}!`
+      
+    )
     setSelected(null)
     setForm({name:'', email:'', phone:''})
   }
